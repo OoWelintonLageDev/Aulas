@@ -1,0 +1,24 @@
+<script>
+    let produto = prompt("Digite o nome de um produto")
+
+    switch (produto) {
+        case "maçã":
+        case "banana":
+        case "laranja":
+            mensagem = "Fruta";
+            break;
+        case "cenoura": 
+        case "batata":
+            mensagem = "Legumes"
+            break;
+        case "carne": 
+        case "frango":
+            mensagem = "Proteína"
+            break;
+    
+        default:
+            mensagem = "Categoria desconhecida"
+            break;
+    }
+    document.write(mensagem);
+</script>
