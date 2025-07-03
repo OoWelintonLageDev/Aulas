@@ -1,0 +1,28 @@
+<script>
+    let num1 = Number(prompt("Digite o primeiro número 1: "));
+    let num2 = Number(prompt("Digite o segundo número 2: "));
+    let operacao = prompt("Operação: +, -, *, /, %"); 
+    let resultado;
+
+    switch (operacao) {
+        case "+":
+            resultado = num1 + num2;
+            break;
+        case "-":
+            resultado = num1 - num2;
+            break;
+        case "*":
+            resultado = num1 * num2;
+            break;
+        case "/":
+            resultado = num1 / num2;
+            break;
+        case "%":
+            resultado = num1 % num2;
+            break;
+
+        default:
+            resultado = "Operação inválida!";
+    }
+    document.write(`Resultado: ${resultado}`);
+</script>
