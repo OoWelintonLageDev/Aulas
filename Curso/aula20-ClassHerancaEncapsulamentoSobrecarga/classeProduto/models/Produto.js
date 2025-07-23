@@ -10,7 +10,7 @@ class Produto {
   exibirInfo() {
     return `${this.nome} - Preço: R$${this.preco.toFixed(2)} - Quantidade: ${
       this.quantidade
-    } -Total: R$${this.calcularTotal().toFixed(2)}`;
+    } - Total: R$${this.calcularTotal().toFixed(2)}`;
   }
   atualizarQuantidade(novaQuantidade) {
     if (novaQuantidade >= 0) {

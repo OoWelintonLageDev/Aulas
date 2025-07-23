@@ -2,8 +2,8 @@ import Produto from "./models/Produto.js";
 const listaProdutos = [];
 function adicionarProduto() {
   const nome = prompt("Digite o nome do produto:");
-  const preco = parseFlot(prompt("Digite o preço do produto:"));
-  const quantidade = parseInt(prompt("Digite a quantidade do produto:"));
+  const preco = parseFloat(prompt("Digite o preço do produto:"));
+  const quantidade = parseInt(prompt("Digite a quantidade do produto:")) - 1;
 
   if (nome && !isNaN(preco) && !isNaN(quantidade)) {
     const produto = new Produto(nome, preco, quantidade);
@@ -23,7 +23,7 @@ function listarProdutos() {
   }
   document.write("Lista de produto:<br>");
   listaProdutos.forEach((produto, index) => {
-    document.write(`${index + 1}. ${produto.exibirInfo()}`);
+    document.write(`${index + 1}. ${produto.exibirInfo()}<br>`);
   });
   document.close();
 }
