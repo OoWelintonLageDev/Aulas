@@ -15,6 +15,18 @@ function adicionarProduto() {
 }
 
 function listarProdutos() {
+  if (listaProdutos.length === 0) {
+    alert("Nenhum produto cadastrado");
+    return;
+  }
+  let mensagem = "Lista de produtos:\n";
+  listaProdutos.forEach((produto, index) => {
+    mensagem += `${index + 1}. ${produto.exibirInfo()}\n`;
+  });
+  alert(mensagem);
+}
+
+/*function listarProdutos() {
   document.open();
   if (listaProdutos.length === 0) {
     document.write("Nenhum produto cadastrado<br>");
@@ -24,9 +36,10 @@ function listarProdutos() {
   document.write("Lista de produto:<br>");
   listaProdutos.forEach((produto, index) => {
     document.write(`${index + 1}. ${produto.exibirInfo()}<br>`);
+    console.log(`${index + 1}. ${produto.exibirInfo()}<br>`);
   });
   document.close();
-}
+}*/
 
 function editarQuantidade() {
   const index = parseInt(
@@ -78,7 +91,8 @@ function menu() {
         break;
       case "5":
         alert("Saindo...");
-        break;
+        return
+        //break;
 
       default:
         alert("Opção Inválida.");
