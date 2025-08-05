@@ -14,7 +14,7 @@ function adicionarProduto() {
   }
 }
 
-function listarProdutos() {
+/*function listarProdutos() {
   if (listaProdutos.length === 0) {
     alert("Nenhum produto cadastrado");
     return;
@@ -24,9 +24,9 @@ function listarProdutos() {
     mensagem += `${index + 1}. ${produto.exibirInfo()}\n`;
   });
   alert(mensagem);
-}
+}*/
 
-/*function listarProdutos() {
+function listarProdutos() {
   document.open();
   if (listaProdutos.length === 0) {
     document.write("Nenhum produto cadastrado<br>");
@@ -39,7 +39,7 @@ function listarProdutos() {
     console.log(`${index + 1}. ${produto.exibirInfo()}<br>`);
   });
   document.close();
-}*/
+}
 
 function editarQuantidade() {
   const index = parseInt(
@@ -75,6 +75,9 @@ function menu() {
     const opcao = prompt(
       "Escolha uma opção:\n1. Adcionar produto\n2. Listar produtos\n3. Editar quantidade\n4. Deletar produto\n5. Sair"
     );
+    if (opcao === null) {
+      alert('Operação cancelada.')
+    };
 
     switch (opcao) {
       case "1":
