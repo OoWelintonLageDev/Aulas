@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 05 - Formulário</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Contato</a></li>
+      <li><a href="#">Sobre</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Aula 05 - Formulário</h1>
+  </header>
+  <main>
+    <form>
+      <label for="nome">Nome:</label><br />
+      <input type="text" name="nome"id="nome" /><br />
+
+      <label for="sobrenome">Sobrenome</label><br />
+      <input type="text" nome="sobrenome" id="sobrenome" /><br />
+
+      <label for="senha">Senha:</label><br />
+      <input type="password" nome="senha" id="senha" /><br />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" /><br />
+
+      <p>Selecione o seu sexo (Masculino ou Feminino)</p>
+      <input type="radio" name="sexo" id="fem">
+      <label for="fem">Feminino</label>
+
+      <input type="radio" name="sexo" id="masc">
+      <label for="masc">Masculino</label>
+
+      <p>Selecione seu estado</p>
+      <input type="checkbox" name="rj" id="rj" value="RJ">
+      <label for="rj">Rio de Janeiro</label><br />
+
+      <input type="checkbox" name="sp" id="rj" value="SP">
+      <label for="sp">São Paulo</label><br />
+
+      <input type="checkbox" name="mg" id="rj" value="MG">
+      <label for="mg">Minas Gerais</label><br />
+
+      <select name="pais" id="pais">
+        <option value="" disabled selected>Selecione um País</option>
+        <optgroup label="Europa">
+          <option value="esp">Espanha</option>
+          <option value="fra">França</option>
+          <option value="por">Portugal</option>
+        </optgroup>
+
+        <optgroup label="América">
+          <option value="br">Brasil</option>
+          <option value="mex">México</option>
+          <option value="usa">Estados Unidos da América</option>
+        </optgroup>
+      </select><br>
+
+      <label for="">Submit</label>
+      <input type="submit" value="Enviar" id="enviar"><br />
+
+      <label for="">Button</label>
+      <input type="button" value="Clique Aqui!" id="botão"><br />
+
+      <label for="arquivo">Arquivo:</label>
+      <input type="file" id="arquivo" /><br />
+
+      <label for="id_oculto">ID Oculto:</label>
+      <input type="hidden" id="id_oculto" name="id" value="123" /><br />
+    </form>
+  </main>
+  <footer>
+    <p>&copy; Copyright 2025 | Todos os direitos reservados - Welinton Lage</p>
+  </footer>  
+</body>
+</html>
