@@ -37,6 +37,7 @@ header, footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 7px dashed;
 
   
 }
