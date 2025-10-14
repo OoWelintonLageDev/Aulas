@@ -7,26 +7,28 @@
 
  
 
-### Tecnologias que eu estou aprendendo
+## 🚀 Tecnologias que estou aprendendo
 
-### 🚀 Progresso de Aprendizado por Assunto
+### 📈 Progresso de Aprendizado por Assunto
 
-| Assunto        | Progresso                                      | Status         |
-|----------------|------------------------------------------------|----------------|
-| HTML           | 🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️⚪️ `40%`         | Em andamento   |
-| CSS            | 🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️ `50%`         | Em andamento   |
-| JavaScript     | 🔵🔵🔵⚪️⚪️⚪️⚪️⚪️⚪️⚪️ `30%`         | Em andamento   |
-| React          | 🔵🔵⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️ `20%`         | Início         |
-| Git/GitHub     | 🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️ `60%`         | Bom progresso  |
-| Responsividade | 🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️⚪️ `40%`         | Em andamento   |
+| Tecnologia     | Progresso                                   | Status          |
+|----------------|---------------------------------------------|-----------------|
+| ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)         | 🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️⚪️ `40%` | Em andamento    |
+| ![CSS](https://img.shields.io/badge/CSS-239120?style=flat&logo=css3&logoColor=white)           | 🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️ `50%` | Em andamento    |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)     | 🔵🔵🔵⚪️⚪️⚪️⚪️⚪️⚪️⚪️ `30%` | Em andamento    |
+| ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)         | 🔵🔵⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️ `20%` | Início          |
+| ![GitHub](https://img.shields.io/badge/Git/GitHub-181717?style=flat&logo=github&logoColor=white)     | 🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️ `60%` | Bom progresso   |
+| 🖥️ **Responsividade** | 🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️⚪️ `40%` | Em andamento    |
 
+---
 
-<div style="display: inline-block;"><br> 
-  <img align="center" alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img align="center" alt="CSS" src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white" /> 
-  <img align="center" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
-  <img align="center" alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-</div><br>
+### 💻 Tecnologias em uso
 
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-Apaixonado por Tecnologia!
+---
+
+### ❤️ Apaixonado por Tecnologia!
