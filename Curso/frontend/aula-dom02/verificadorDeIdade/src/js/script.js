@@ -22,15 +22,15 @@ function verificarIdade() {
         img.setAttribute("src", "./assets/bebe-f.jpg");
       } else if (idade >= 4 && idade <= 13) {
         faixaEtaria = "uma menina";
-        img.setAttribute("src", "./assets/menina-f.jpeg");
+        img.setAttribute("src", "./assets/crianca-f.jpeg");
       } else if (idade >= 13 && idade <= 21) {
-        faixaEtaria = "um adolecente";
-        img.setAttribute("src", "./assets/adolecente-f.jpeg");
+        faixaEtaria = "um adolescente";
+        img.setAttribute("src", "./assets/adolescente-f.jpeg");
       } else if (idade <= 50) {
         faixaEtaria = "um adulto";
         img.setAttribute("src", "./assets/adulto-f.jpeg");
       } else {
-        faixaEtaria = "um idoso";
+        faixaEtaria = "um idosa";
         img.setAttribute("src", "./assets/idoso-f.jpeg");
       }
     } else {
