@@ -46,6 +46,7 @@ div.quadrado {
 div.quadrado.azul {
   background-color: #0000FF;
   color: #000;
+  overflow: scroll;
 }
 
 div.quadrado.vermelho {
