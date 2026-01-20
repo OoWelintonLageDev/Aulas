@@ -1,0 +1,46 @@
+<div id="app">
+  <p>Nome: {{ nome }}</p>
+  <p>Idade: {{ idade }}</p>
+
+  <button @click="somar">
+  	Clique aqui
+  </button>
+
+  <p v-if="logado">Você está logado</p>
+  <p v-else>Faça login</p>
+
+  <ul>
+    <li v-for="item in lista">
+      {{ item }}
+    </li>
+  </ul>
+
+  <input v-model="nome">
+  <p>Olá {{ nome }}</p>
+  <main-card />
+</div>
+
+<script>
+const app = Vue.createApp({
+  data() {
+    return {
+      nome: 'Ana',
+      idade: 30,
+      logado: false,
+      lista: ['Home', 'Contato', 'Sobre'],
+      numero: 0
+    }
+  },
+  methods: {
+    somar() {
+      this.numero++
+    }
+  }
+})
+
+app.component('main-card', {
+  template: '<p>Olá, sou um componente</p>'
+})
+
+app.mount('#app')
+</script>
